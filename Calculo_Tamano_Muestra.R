@@ -20,9 +20,10 @@ N<-sum(ppto$ppto2017)
 
 #tamaño de muestra para encuestas de satisfaccion
 #Proporcion de las personas satisfechas con la interaccion y servicio
-n<-((1.96^2)*N*0.5*0.5)/((0.01^2)*(N-1)+(1.96^2)*0.5*0.5)
-n<-round(n)
-n/N*100
+n_s<-ss2s4p(N=N,p=0.5,me=.01,M=6,by=1,rho=0.01)
+
+#fraccion de muestreo
+f_s<-n_s/N
 
 #tamaño de muestra para encuestas internas
 
