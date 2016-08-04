@@ -27,4 +27,17 @@ f_s<-n_s/N
 
 #tamaño de muestra para encuestas internas
 
+
 #tamaño de muestra para encuestas de percepcion
+
+
+
+
+
+################### API Qualtrics ##################################################
+
+library(rjson)
+library(httpuv)
+library(httr)
+
+rootQualtrics<-"https://survey.qualtrics.com/WRAPI/ControlPanel/api.php"
