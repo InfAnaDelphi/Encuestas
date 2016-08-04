@@ -40,4 +40,12 @@ library(rjson)
 library(httpuv)
 library(httr)
 
-rootQualtrics<-"https://survey.qualtrics.com/WRAPI/ControlPanel/api.php"
+#Parametros de la consulta
+request<-"https://survey.qualtrics.com/WRAPI/ControlPanel/api.php"
+surveyID<-"SV_6kQzmqpQxQuU5et"
+tok<-"token"
+user<-"UR_89cVt3okdFOHPQF"
+format<-"JSON"
+versionAPI<-""
+
+
